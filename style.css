@@ -1,0 +1,36 @@
+
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: rgb(98, 0, 255);
+    box-sizing: border-box;
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    padding: 10px;
+    border: 1px solid rgb(21, 22, 21);
+}
+button{
+    background-color: rgb(21, 218, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+.task{
+    background-color: aliceblue;
+    font: 100 1.1rem sans-serif;
+    padding: 30px;
+    margin: 2vh;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.task > div {
+    width: 100%;
+}
